@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TernaryProject\TernaryProject\bin\Debug\TernaryProject.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TernaryProject\TernaryProject\bin\Debug\TernaryProject.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TernaryProject\TernaryProject\bin\Debug\TernaryProject.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TernaryProject\TernaryProject\obj\Debug\TernaryProject.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TernaryProject\TernaryProject\obj\Debug\TernaryProject.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TernaryProject\TernaryProject\obj\Debug\TernaryProject.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TernaryProject\TernaryProject\obj\Debug\TernaryProject.pdb
