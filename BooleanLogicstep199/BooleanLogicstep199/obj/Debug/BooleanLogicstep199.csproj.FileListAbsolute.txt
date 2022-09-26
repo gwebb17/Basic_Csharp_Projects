@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\BooleanLogicstep199\BooleanLogicstep199\bin\Debug\BooleanLogicstep199.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\BooleanLogicstep199\BooleanLogicstep199\bin\Debug\BooleanLogicstep199.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\BooleanLogicstep199\BooleanLogicstep199\bin\Debug\BooleanLogicstep199.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\BooleanLogicstep199\BooleanLogicstep199\obj\Debug\BooleanLogicstep199.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\BooleanLogicstep199\BooleanLogicstep199\obj\Debug\BooleanLogicstep199.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\BooleanLogicstep199\BooleanLogicstep199\obj\Debug\BooleanLogicstep199.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\BooleanLogicstep199\BooleanLogicstep199\obj\Debug\BooleanLogicstep199.pdb
