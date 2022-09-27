@@ -53,7 +53,7 @@ namespace ConsoleAppSubmissionAssignment229
             Console.WriteLine("Enter an even number:");
             int number = Convert.ToInt32(Console.ReadLine());
 
-            while (number % 2 != 0)
+            while (number % 2 != 0) //take our number, divide by 2, if the remainder is NOT ZERO (in other words if it's an odd #) execute following:
             {
                 Console.WriteLine("You entered an odd number, try again");
                 Console.WriteLine("Enter an even number:");
@@ -62,7 +62,7 @@ namespace ConsoleAppSubmissionAssignment229
 
 
             }
-            if (number % 2 == 0)
+            if (number % 2 == 0) //when entered number divided by 2 results in no remainder (IS ZERO/even number) execute the following:
             {
                 Console.WriteLine("You did it");
             }
