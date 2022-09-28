@@ -1,0 +1,6 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\SixPartAssignment251\SixPartAssignment251\bin\Debug\SixPartAssignment251.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\SixPartAssignment251\SixPartAssignment251\bin\Debug\SixPartAssignment251.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\SixPartAssignment251\SixPartAssignment251\bin\Debug\SixPartAssignment251.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\SixPartAssignment251\SixPartAssignment251\obj\Debug\SixPartAssignment251.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\SixPartAssignment251\SixPartAssignment251\obj\Debug\SixPartAssignment251.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\SixPartAssignment251\SixPartAssignment251\obj\Debug\SixPartAssignment251.pdb
