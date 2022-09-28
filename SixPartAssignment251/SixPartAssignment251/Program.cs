@@ -25,7 +25,12 @@ namespace SixPartAssignment251
             for (int i = 0; i < stringyArray.Length; i++) //iterate through each item in array
             {
                 stringyArray[i] += " " + answer; //redefine var adding a space and user input to end
-                Console.WriteLine(stringyArray[i]); //display newly concatenated string array
+                //Console.WriteLine(stringyArray[i]); //display newly concatenated string array
+            }
+
+            foreach (string iteration in stringyArray) //ammending to have separate loop per instructor feedback
+            {
+                Console.WriteLine(iteration);
             }
 
 
@@ -76,44 +81,65 @@ namespace SixPartAssignment251
             Console.WriteLine("Name a well known European city");
             string step4Answer = Console.ReadLine();  //save answer as var
 
-            foreach (string answers in stringyList) //go through each string in the List and give a course of action
-                                                    //to take if the string matches user input
-            {
-                if (step4Answer == "Rome")
-                {
-                    Console.WriteLine("Index value: 0");
-                }
-                else if (step4Answer == "Munich")
-                {
-                    Console.WriteLine("Index value: 1");
-                }
-                else if (step4Answer == "Warsaw")
-                {
-                    Console.WriteLine("Index value: 2");
-                }
-                else if (step4Answer == "Cologne")
-                {
-                    Console.WriteLine("Berlin");
-                }
-                else if (step4Answer == "Berlin")
-                {
-                    Console.WriteLine("Index value: 3");
-                }
-                else if (step4Answer == "Prague")
-                {
-                    Console.WriteLine("Index value: 4");
-                }
-                else
-                {
-                    Console.WriteLine("Sorry, your answer isn't on the list"); //action to take if answer/input doesn't match any list items
-                }
+            //foreach (string answers in stringyList) //go through each string in the List and give a course of action
+            //                                        //to take if the string matches user input
+            //{
+            //    if (step4Answer == "Rome")
+            //    {
+            //        Console.WriteLine("Index value: 0");
+            //    }
+            //    else if (step4Answer == "Munich")
+            //    {
+            //        Console.WriteLine("Index value: 1");
+            //    }
+            //    else if (step4Answer == "Warsaw")
+            //    {
+            //        Console.WriteLine("Index value: 2");
+            //    }
+            //    else if (step4Answer == "Cologne")
+            //    {
+            //        Console.WriteLine("Berlin");
+            //    }
+            //    else if (step4Answer == "Berlin")
+            //    {
+            //        Console.WriteLine("Index value: 3");
+            //    }
+            //    else if (step4Answer == "Prague")
+            //    {
+            //        Console.WriteLine("Index value: 4");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Sorry, your answer isn't on the list"); //action to take if answer/input doesn't match any list items
+            //    }
 
-                //for (int l = 0; l < stringyList.Count; l++) **this is potential alternate way of looping in case above way doesn't meet requirements**
-                //    if (l == step4Answer)                     **would require conversion of strings to ints in order to use "l" iterations
+            bool changedSomething = false;
+            for (int i = 0; i < stringyList.Count; i++)
+                {
+                    if (step4Answer == stringyList[i])
+                    {
+                        Console.WriteLine("Matching indice found at: " + i);
+                        changedSomething = true;
+                        break;
+                    }
+                    
+                 
+                 }
+
+            if (changedSomething != true)
+            {
+                Console.WriteLine("sorry item not found");
+            }
+                    
+                    
+
+
+                //for (int l = 0; l < stringyList.Count; l++) **this was correct thinking see above we replace foreach loop with for using i loop**
+                //    if (l == step4Answer)                     
                 //    {
 
                 //    }
-            }
+            
 
 
             //------------------------------STEP 5----------------------------------------------

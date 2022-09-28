@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ExceptionPractice\ExceptionPractice\bin\Debug\ExceptionPractice.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ExceptionPractice\ExceptionPractice\bin\Debug\ExceptionPractice.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ExceptionPractice\ExceptionPractice\bin\Debug\ExceptionPractice.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ExceptionPractice\ExceptionPractice\obj\Debug\ExceptionPractice.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ExceptionPractice\ExceptionPractice\obj\Debug\ExceptionPractice.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ExceptionPractice\ExceptionPractice\obj\Debug\ExceptionPractice.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ExceptionPractice\ExceptionPractice\obj\Debug\ExceptionPractice.pdb
