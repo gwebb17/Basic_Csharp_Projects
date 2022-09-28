@@ -153,7 +153,7 @@ namespace SixPartAssignment251
 
             foreach (string snakes in step6List) //create foreach loop iterating through each item in list
             {
-                if (step6List[0].Contains(snakes))
+                if (step6List[0].Contains(snakes)) //if current position in list contains previously iterated position in list print the following
                 {
                     Console.WriteLine(snakes + " - This is a duplicate");
                 }
