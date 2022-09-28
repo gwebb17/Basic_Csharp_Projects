@@ -1,0 +1,6 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\IterationPractice\IterationPractice\bin\Debug\IterationPractice.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\IterationPractice\IterationPractice\bin\Debug\IterationPractice.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\IterationPractice\IterationPractice\bin\Debug\IterationPractice.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\IterationPractice\IterationPractice\obj\Debug\IterationPractice.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\IterationPractice\IterationPractice\obj\Debug\IterationPractice.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\IterationPractice\IterationPractice\obj\Debug\IterationPractice.pdb
