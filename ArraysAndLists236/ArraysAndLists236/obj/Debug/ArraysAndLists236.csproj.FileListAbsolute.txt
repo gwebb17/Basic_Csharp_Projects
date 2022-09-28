@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ArraysAndLists236\ArraysAndLists236\bin\Debug\ArraysAndLists236.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ArraysAndLists236\ArraysAndLists236\bin\Debug\ArraysAndLists236.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ArraysAndLists236\ArraysAndLists236\bin\Debug\ArraysAndLists236.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ArraysAndLists236\ArraysAndLists236\obj\Debug\ArraysAndLists236.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ArraysAndLists236\ArraysAndLists236\obj\Debug\ArraysAndLists236.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ArraysAndLists236\ArraysAndLists236\obj\Debug\ArraysAndLists236.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ArraysAndLists236\ArraysAndLists236\obj\Debug\ArraysAndLists236.pdb
