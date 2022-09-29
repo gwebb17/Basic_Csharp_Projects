@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjects265\ClassesAndObjects265\bin\Debug\ClassesAndObjects265.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjects265\ClassesAndObjects265\bin\Debug\ClassesAndObjects265.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjects265\ClassesAndObjects265\bin\Debug\ClassesAndObjects265.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjects265\ClassesAndObjects265\obj\Debug\ClassesAndObjects265.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjects265\ClassesAndObjects265\obj\Debug\ClassesAndObjects265.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjects265\ClassesAndObjects265\obj\Debug\ClassesAndObjects265.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjects265\ClassesAndObjects265\obj\Debug\ClassesAndObjects265.pdb
