@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\MethodClassAssignment281\MethodClassAssignment281\bin\Debug\MethodClassAssignment281.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\MethodClassAssignment281\MethodClassAssignment281\bin\Debug\MethodClassAssignment281.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\MethodClassAssignment281\MethodClassAssignment281\bin\Debug\MethodClassAssignment281.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\MethodClassAssignment281\MethodClassAssignment281\obj\Debug\MethodClassAssignment281.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\MethodClassAssignment281\MethodClassAssignment281\obj\Debug\MethodClassAssignment281.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\MethodClassAssignment281\MethodClassAssignment281\obj\Debug\MethodClassAssignment281.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\MethodClassAssignment281\MethodClassAssignment281\obj\Debug\MethodClassAssignment281.pdb
