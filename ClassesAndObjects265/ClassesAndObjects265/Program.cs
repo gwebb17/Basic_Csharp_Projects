@@ -11,6 +11,7 @@ namespace ClassesAndObjects265
         static void Main(string[] args)
         {
             TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Kesse", "Bill", "Joe" };
             game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
             game.ListPlayers();
 

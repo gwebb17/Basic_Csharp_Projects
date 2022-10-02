@@ -8,9 +8,15 @@ namespace ClassesAndObjects265
 {
     public class TwentyOneGame : Game
     {
-        public void Play()
+        public override void Play()
         {
             throw new NotImplementedException(); //exception catch
+        }
+
+        public override void ListPlayers()
+        {
+            Console.WriteLine("Welcome to 21, players: ");
+            base.ListPlayers();
         }
     }
 }

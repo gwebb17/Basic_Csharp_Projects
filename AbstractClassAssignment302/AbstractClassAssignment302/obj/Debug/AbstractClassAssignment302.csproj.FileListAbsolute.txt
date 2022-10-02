@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\AbstractClassAssignment302\AbstractClassAssignment302\bin\Debug\AbstractClassAssignment302.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\AbstractClassAssignment302\AbstractClassAssignment302\bin\Debug\AbstractClassAssignment302.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\AbstractClassAssignment302\AbstractClassAssignment302\bin\Debug\AbstractClassAssignment302.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\AbstractClassAssignment302\AbstractClassAssignment302\obj\Debug\AbstractClassAssignment302.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\AbstractClassAssignment302\AbstractClassAssignment302\obj\Debug\AbstractClassAssignment302.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\AbstractClassAssignment302\AbstractClassAssignment302\obj\Debug\AbstractClassAssignment302.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\AbstractClassAssignment302\AbstractClassAssignment302\obj\Debug\AbstractClassAssignment302.pdb
