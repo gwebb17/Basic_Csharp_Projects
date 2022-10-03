@@ -15,6 +15,15 @@ namespace ClassSubmissionAssignment285
 
         }
 
-       
+        public void Method1(out int x, int b = 2)  //create static void method inside class with overloaded parameter b (defult value given)
+        {
+            x = 5;
+            //Console.WriteLine("Enter a number: ");
+            //x = Convert.ToInt32(Console.ReadLine());
+            int result2 = x * b;  //save result of operation for display
+            Console.WriteLine(result2);  //display result of operation
+        }
+
+
     }
 }

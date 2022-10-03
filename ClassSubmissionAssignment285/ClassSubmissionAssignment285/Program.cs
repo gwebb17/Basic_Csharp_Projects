@@ -22,11 +22,15 @@ namespace ClassSubmissionAssignment285
 
             //----------------------------Method2 static class access-----------------
 
-            Console.WriteLine("Enter another number");
-            int answer2 = Convert.ToInt32(Console.ReadLine());  //ask for input and save as int
+            
 
-            Classy2.Method2(answer2);
-      
+            Console.WriteLine("enter a number");
+            int answer2 = Convert.ToInt32(Console.ReadLine());
+
+            classyObject.Method1(out answer2, answer);
+
+
+
 
 
             Console.ReadLine();

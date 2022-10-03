@@ -10,15 +10,17 @@ namespace ClassesAndObjects265
     {
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Kesse", "Bill", "Joe" };
-            game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
-            game.ListPlayers();
+            Game game = new TwentyOneGame();
+            game.Players = new List<Player>();
+            Player player = new Player();
+            player.Name = "Jesse";    
+            game = game + player;   //can also say game += player for shorthand
 
+          
 
             Deck deck = new Deck();   //Deck should create 52 card objects based on deck.cs file
             //deck = Shuffle(deck);  //reassign value of deck as a shuffled deck (call method Shuffle on (deck);
-            deck = Shuffle(deck, 9);
+            deck.Shuffle(deck, 3);
 
                 foreach (Card card in deck.Cards)    //loop to display every card using our list Cards defined in Deck file
                 {
