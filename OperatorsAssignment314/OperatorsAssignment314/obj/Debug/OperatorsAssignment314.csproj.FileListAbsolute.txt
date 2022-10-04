@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\OperatorsAssignment314\OperatorsAssignment314\obj\Debug\OperatorsAssignment314.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\OperatorsAssignment314\OperatorsAssignment314\obj\Debug\OperatorsAssignment314.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\OperatorsAssignment314\OperatorsAssignment314\bin\Debug\OperatorsAssignment314.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\OperatorsAssignment314\OperatorsAssignment314\bin\Debug\OperatorsAssignment314.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\OperatorsAssignment314\OperatorsAssignment314\bin\Debug\OperatorsAssignment314.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\OperatorsAssignment314\OperatorsAssignment314\obj\Debug\OperatorsAssignment314.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\OperatorsAssignment314\OperatorsAssignment314\obj\Debug\OperatorsAssignment314.pdb
