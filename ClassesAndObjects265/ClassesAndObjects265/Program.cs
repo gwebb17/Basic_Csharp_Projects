@@ -10,6 +10,12 @@ namespace ClassesAndObjects265
     {
         static void Main(string[] args)
         {
+            Card card = new Card();
+            card.Suit = Suit.Diamonds;
+            int underlyingValue = Convert.ToInt32(Suit.Diamonds);
+            Console.WriteLine(underlyingValue);
+
+
             Game game = new TwentyOneGame();
             game.Players = new List<Player>();
             Player player = new Player();

@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ParametersAssignment318\ParametersAssignment318\bin\Debug\ParametersAssignment318.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ParametersAssignment318\ParametersAssignment318\bin\Debug\ParametersAssignment318.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ParametersAssignment318\ParametersAssignment318\bin\Debug\ParametersAssignment318.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ParametersAssignment318\ParametersAssignment318\obj\Debug\ParametersAssignment318.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ParametersAssignment318\ParametersAssignment318\obj\Debug\ParametersAssignment318.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ParametersAssignment318\ParametersAssignment318\obj\Debug\ParametersAssignment318.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ParametersAssignment318\ParametersAssignment318\obj\Debug\ParametersAssignment318.pdb
