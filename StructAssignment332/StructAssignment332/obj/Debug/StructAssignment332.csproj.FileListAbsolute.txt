@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\StructAssignment332\StructAssignment332\bin\Debug\StructAssignment332.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\StructAssignment332\StructAssignment332\bin\Debug\StructAssignment332.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\StructAssignment332\StructAssignment332\bin\Debug\StructAssignment332.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\StructAssignment332\StructAssignment332\obj\Debug\StructAssignment332.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\StructAssignment332\StructAssignment332\obj\Debug\StructAssignment332.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\StructAssignment332\StructAssignment332\obj\Debug\StructAssignment332.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\StructAssignment332\StructAssignment332\obj\Debug\StructAssignment332.pdb

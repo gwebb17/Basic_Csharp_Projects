@@ -25,8 +25,10 @@ namespace ParsingEnumsAssignment325
             {
                 Console.WriteLine("Please enter an actual day of the week");  //if user input doesn't match possible values in enum definition display this message
             }
-            
 
+
+
+       
 
 
             Console.ReadLine();
