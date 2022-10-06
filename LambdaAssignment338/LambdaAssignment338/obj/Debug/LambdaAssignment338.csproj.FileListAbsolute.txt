@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\LambdaAssignment338\LambdaAssignment338\bin\Debug\LambdaAssignment338.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\LambdaAssignment338\LambdaAssignment338\bin\Debug\LambdaAssignment338.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\LambdaAssignment338\LambdaAssignment338\bin\Debug\LambdaAssignment338.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\LambdaAssignment338\LambdaAssignment338\obj\Debug\LambdaAssignment338.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\LambdaAssignment338\LambdaAssignment338\obj\Debug\LambdaAssignment338.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\LambdaAssignment338\LambdaAssignment338\obj\Debug\LambdaAssignment338.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\LambdaAssignment338\LambdaAssignment338\obj\Debug\LambdaAssignment338.pdb

@@ -11,28 +11,17 @@ namespace ClassesAndObjects265
         static void Main(string[] args)
         {
 
-            Card card1 = new Card();
-            Card card2 = card1;
-            card1.Face = Face.Eight;
-            card2.Face = Face.King;
-            Console.WriteLine(card1.Face);
-
-
-            Card card = new Card();
-            card.Suit = Suit.Diamonds;
-            int underlyingValue = Convert.ToInt32(Suit.Diamonds);
-            Console.WriteLine(underlyingValue);
-
-
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jesse";    
-            game = game + player;   //can also say game += player for shorthand
-
+            
           
 
             Deck deck = new Deck();   //Deck should create 52 card objects based on deck.cs file
+            int count = deck.Cards.Count(x => x.Face == Face.Ace);
+
+            List<Card> newList = deck.Cards.Where(y => y.Face == Face.King).ToList();
+
+            List<int> numberList = new List<int>() { 1, 2, 3, 555, 12 };
+            int sum = numberList.Sum();
+
             //deck = Shuffle(deck);  //reassign value of deck as a shuffled deck (call method Shuffle on (deck);
             deck.Shuffle(deck, 3);
 
