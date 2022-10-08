@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\InputAssignment366\InputAssignment366\bin\Debug\InputAssignment366.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\InputAssignment366\InputAssignment366\bin\Debug\InputAssignment366.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\InputAssignment366\InputAssignment366\bin\Debug\InputAssignment366.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\InputAssignment366\InputAssignment366\obj\Debug\InputAssignment366.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\InputAssignment366\InputAssignment366\obj\Debug\InputAssignment366.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\InputAssignment366\InputAssignment366\obj\Debug\InputAssignment366.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\InputAssignment366\InputAssignment366\obj\Debug\InputAssignment366.pdb

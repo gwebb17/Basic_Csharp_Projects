@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ClassesAndObjects265
 {
@@ -10,27 +11,33 @@ namespace ClassesAndObjects265
     {
         static void Main(string[] args)
         {
-
             
-          
 
-            Deck deck = new Deck();   //Deck should create 52 card objects based on deck.cs file
-            int count = deck.Cards.Count(x => x.Face == Face.Ace);
+            Console.WriteLine("Welcome to the Completely Fictional Hotel and Casino, please enter your name: ");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello {0}. Would you like to play a game?", playerName);
+            string answer = Console.ReadLine().ToLower(); //convert answer to lowercase makes it easier to check response below
 
-            List<Card> newList = deck.Cards.Where(y => y.Face == Face.King).ToList();
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")  //if they want to play we create player from them and new game
+            {
+                Player player = new Player(playerName, bank); //create new player with name and bank props
+                Game game = new TwentyOneGame();  //create new game
+                game += player; //Add player to the newly created game
 
-            List<int> numberList = new List<int>() { 1, 2, 3, 555, 12 };
-            int sum = numberList.Sum();
-
-            //deck = Shuffle(deck);  //reassign value of deck as a shuffled deck (call method Shuffle on (deck);
-            deck.Shuffle(deck, 3);
-
-                foreach (Card card in deck.Cards)    //loop to display every card using our list Cards defined in Deck file
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)  //loop that executes when player is playing and has balance > 0
                 {
-                    Console.WriteLine(card.Face + " of " + card.Suit);  
+                    game.Play(); //Play defined in TwentyOneGame
                 }
+                game -= player; //if player isn't playing remove player from game
+                Console.WriteLine("Thanks for playing"); //triggers after player stops playing and is removed from game
+            }
+            
+            Console.WriteLine("Feel free to look around the casino bye bye");
 
-            Console.WriteLine(deck.Cards.Count);   //display the amount of Cards in deck
+
             Console.ReadLine();
         }
     }

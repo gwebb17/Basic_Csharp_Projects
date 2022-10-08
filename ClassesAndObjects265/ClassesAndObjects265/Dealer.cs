@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ClassesAndObjects265
 {
@@ -15,8 +16,14 @@ namespace ClassesAndObjects265
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck.Cards.First());
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n");
-            Deck.Cards.RemoveAt(0);
+            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+            Console.WriteLine(card);
+            //below is cleaning up uneeded memory when not used (USING STATEMENT)
+            using (StreamWriter file = new StreamWriter(@"C:\\Users\\Documents\\Machine\\practice_file.txt", true)) //the true corresponds to a required bool value when using this, means we DO want to append the text
+            {
+                file.WriteLine(card); //says we want to write whats in () to the file. (card)
+            }
+                Deck.Cards.RemoveAt(0);
         }
     }
 }
