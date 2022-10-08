@@ -11,6 +11,8 @@ namespace InputAssignment366
     {
         static void Main(string[] args)
         {
+            
+
             Console.WriteLine("Please enter a number");
             string answer = Console.ReadLine();
             File.WriteAllText(@"C:\\Users\\Machine\\Documents\\practice_file.txt", answer); //writes user number to specified file

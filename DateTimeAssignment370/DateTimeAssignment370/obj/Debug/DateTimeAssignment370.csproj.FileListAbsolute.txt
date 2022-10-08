@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\DateTimeAssignment370\DateTimeAssignment370\bin\Debug\DateTimeAssignment370.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\DateTimeAssignment370\DateTimeAssignment370\bin\Debug\DateTimeAssignment370.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\DateTimeAssignment370\DateTimeAssignment370\bin\Debug\DateTimeAssignment370.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\DateTimeAssignment370\DateTimeAssignment370\obj\Debug\DateTimeAssignment370.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\DateTimeAssignment370\DateTimeAssignment370\obj\Debug\DateTimeAssignment370.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\DateTimeAssignment370\DateTimeAssignment370\obj\Debug\DateTimeAssignment370.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\DateTimeAssignment370\DateTimeAssignment370\obj\Debug\DateTimeAssignment370.pdb
