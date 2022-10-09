@@ -4,13 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+//using ClassesAndObjects265.ClassesAndObjectsLibrary265;
+//using ClassesAndObjectsLibrary265;
 
 namespace ClassesAndObjects265
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            
+           
             
 
             Console.WriteLine("Welcome to the Completely Fictional Hotel and Casino, please enter your name: ");
@@ -23,6 +27,11 @@ namespace ClassesAndObjects265
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")  //if they want to play we create player from them and new game
             {
                 Player player = new Player(playerName, bank); //create new player with name and bank props
+                player.Id = Guid.NewGuid();
+                using StreamWriter file = newStreamWriter(@"C:\\Users\\Machine\\Documents\\practice_file.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
                 Game game = new TwentyOneGame();  //create new game
                 game += player; //Add player to the newly created game
 

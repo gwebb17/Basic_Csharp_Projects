@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace ClassesAndObjects265
+namespace ClassesAndObjectsLibrary265
 {
     public class Dealer
     {
@@ -21,6 +21,7 @@ namespace ClassesAndObjects265
             //below is cleaning up uneeded memory when not used (USING STATEMENT)
             using (StreamWriter file = new StreamWriter(@"C:\\Users\\Documents\\Machine\\practice_file.txt", true)) //the true corresponds to a required bool value when using this, means we DO want to append the text
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card); //says we want to write whats in () to the file. (card)
             }
                 Deck.Cards.RemoveAt(0);

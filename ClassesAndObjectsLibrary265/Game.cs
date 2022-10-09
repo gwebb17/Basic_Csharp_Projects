@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassesAndObjects265
+namespace ClassesAndObjectsLibrary265
 {
     public abstract class Game
     {

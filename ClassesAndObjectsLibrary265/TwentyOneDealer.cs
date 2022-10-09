@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassesAndObjects265
+namespace ClassesAndObjectsLibrary265.ClassesAndObjects265
 {
-    class TwentyOneDealer : Dealer
+    public class TwentyOneDealer : Dealer
     {
         private List<Card> _hand = new List<Card>();
         public List<Card> Hand { get { return _hand; } set { _hand = value; } }

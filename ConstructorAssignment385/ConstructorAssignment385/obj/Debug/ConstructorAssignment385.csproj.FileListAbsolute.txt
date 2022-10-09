@@ -1,0 +1,6 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ConstructorAssignment385\ConstructorAssignment385\bin\Debug\ConstructorAssignment385.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ConstructorAssignment385\ConstructorAssignment385\bin\Debug\ConstructorAssignment385.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ConstructorAssignment385\ConstructorAssignment385\bin\Debug\ConstructorAssignment385.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ConstructorAssignment385\ConstructorAssignment385\obj\Debug\ConstructorAssignment385.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ConstructorAssignment385\ConstructorAssignment385\obj\Debug\ConstructorAssignment385.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ConstructorAssignment385\ConstructorAssignment385\obj\Debug\ConstructorAssignment385.pdb

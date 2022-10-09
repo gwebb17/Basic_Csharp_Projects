@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AC6F9CAE-3545-4A67-B2B9-BEF1BA8F9D49}</ProjectGuid>
+    <ProjectGuid>{6CF81C84-AAC0-4AC2-B51C-A6143E234A34}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassesAndObjects265</RootNamespace>
-    <AssemblyName>ClassesAndObjects265</AssemblyName>
+    <RootNamespace>ConstructorAssignment385</RootNamespace>
+    <AssemblyName>ConstructorAssignment385</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

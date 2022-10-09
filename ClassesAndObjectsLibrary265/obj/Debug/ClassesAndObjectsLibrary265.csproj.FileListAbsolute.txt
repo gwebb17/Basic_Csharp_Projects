@@ -1,0 +1,2 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjectsLibrary265\obj\Debug\ClassesAndObjectsLibrary265.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\ClassesAndObjectsLibrary265\obj\Debug\ClassesAndObjectsLibrary265.csproj.CoreCompileInputs.cache

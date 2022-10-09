@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndObjects265", "ClassesAndObjects265\ClassesAndObjects265.csproj", "{AC6F9CAE-3545-4A67-B2B9-BEF1BA8F9D49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndObjectsLibrary265", "..\ClassesAndObjectsLibrary265\ClassesAndObjectsLibrary265.csproj", "{1188B168-E8A0-4F24-9E2E-E287D63A8D4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AC6F9CAE-3545-4A67-B2B9-BEF1BA8F9D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC6F9CAE-3545-4A67-B2B9-BEF1BA8F9D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC6F9CAE-3545-4A67-B2B9-BEF1BA8F9D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1188B168-E8A0-4F24-9E2E-E287D63A8D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1188B168-E8A0-4F24-9E2E-E287D63A8D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1188B168-E8A0-4F24-9E2E-E287D63A8D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1188B168-E8A0-4F24-9E2E-E287D63A8D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

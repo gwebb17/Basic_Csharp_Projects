@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassesAndObjects265
+
+namespace ClassesAndObjectsLibrary265.ClassesAndObjects265
 {
     public class TwentyOneGame : Game, IWalkAway
     {
