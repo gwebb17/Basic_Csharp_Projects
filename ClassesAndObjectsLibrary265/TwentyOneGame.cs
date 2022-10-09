@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//using ClassesAndObjects265.ClassesAndObjectsLibrary265;
+using ClassesAndObjectsLibrary265;
 
 namespace ClassesAndObjectsLibrary265.ClassesAndObjects265
 {
@@ -28,7 +29,20 @@ namespace ClassesAndObjectsLibrary265.ClassesAndObjects265
 
             foreach (Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Place your bet");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter digits only no decimals");
+                }
+                if (bet < 0)
+                {
+                    throw new FraudException();
+                }
+
+
                 bool successfullyBet = player.Bet(bet);  //Bet defined in Player.cs , either outputs true or false. so this new bool will be true or false as well depending on that result
                 if (!successfullyBet) //this means if successfullyBet == false; shorthand using != basically
                 {

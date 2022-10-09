@@ -1,0 +1,7 @@
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TryCatchAssignment390\TryCatchAssignment390\bin\Debug\TryCatchAssignment390.exe.config
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TryCatchAssignment390\TryCatchAssignment390\bin\Debug\TryCatchAssignment390.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TryCatchAssignment390\TryCatchAssignment390\bin\Debug\TryCatchAssignment390.pdb
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TryCatchAssignment390\TryCatchAssignment390\obj\Debug\TryCatchAssignment390.csproj.AssemblyReference.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TryCatchAssignment390\TryCatchAssignment390\obj\Debug\TryCatchAssignment390.csproj.CoreCompileInputs.cache
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TryCatchAssignment390\TryCatchAssignment390\obj\Debug\TryCatchAssignment390.exe
+C:\Users\Machine\Documents\GitHub\Basic_Csharp_Projects\TryCatchAssignment390\TryCatchAssignment390\obj\Debug\TryCatchAssignment390.pdb
