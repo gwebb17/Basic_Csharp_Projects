@@ -16,10 +16,9 @@ namespace DateTimeAssignment370
             Console.WriteLine(currentDate); //display this new var
 
             Console.WriteLine("Please enter a number");
-            DateTime x = Convert.ToDateTime(Console.ReadLine());
+            int x = Convert.ToInt32(Console.ReadLine());
 
-            TimeSpan futureDateDifference = currentDate - x; //gets difference between time entered and current time
-            DateTime answer = currentDate.Add(futureDateDifference); //adds difference to current time
+            DateTime answer = currentDate.AddHours(x); //adds difference to current time AddHours is the missing piece we needed to properly format results
             Console.WriteLine(answer); //can successfully print the result of the difference in times, however the user must enter time exactly 
             //as it is formatted in line 16 that displays in console. Unsure how to further specify to use int values .
 
