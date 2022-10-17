@@ -27,7 +27,7 @@ namespace ClassesAndObjectsLibrary265
         }
         public List<Card> Cards { get; set; }
 
-        public Deck Shuffle(Deck deck, int times = 1) //when u assign default value on times (1) thats how you create optional param
+        public void Shuffle(int times = 1) //when u assign default value on times (1) thats how you create optional param
                                                              //this param times does not need to be used but can be if placed in above line 15 deck = Shuffle(deck, # of times);
         {
             for (int i = 0; i < times; i++)
@@ -35,15 +35,15 @@ namespace ClassesAndObjectsLibrary265
                 List<Card> TempList = new List<Card>();  //create empty temp list to store results
                 Random random = new Random();    //using built in class Random we create var random and instantiate method Random();
 
-                while (deck.Cards.Count > 0)  //will run on each card in deck until we have no more cards left to run
+                while (Cards.Count > 0)  //will run on each card in deck until we have no more cards left to run
                 {
-                    int randomIndex = random.Next(0, deck.Cards.Count); //create int var called randomIndex between 0 and 52 (deck.Cards.Count)
-                    TempList.Add(deck.Cards[randomIndex]);   //take randomIndex and add it to TempList(deck is overall object Cards is prop list)
-                    deck.Cards.RemoveAt(randomIndex);  //now remove randomIndex from the parent list deck.Cards until no cards left
+                    int randomIndex = random.Next(0, Cards.Count); //create int var called randomIndex between 0 and 52 (deck.Cards.Count)
+                    TempList.Add(Cards[randomIndex]);   //take randomIndex and add it to TempList(deck is overall object Cards is prop list)
+                    Cards.RemoveAt(randomIndex);  //now remove randomIndex from the parent list deck.Cards until no cards left
                 }
-                deck.Cards = TempList;  //now deck.Cards is empty so we assign tempList values to it
+                Cards = TempList;  //now deck.Cards is empty so we assign tempList values to it
             }
-            return deck; //now deck is redfined after being shuffled so we can return it
+
 
         }
     }

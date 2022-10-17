@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-//using ClassesAndObjects265.ClassesAndObjectsLibrary265;
-//using ClassesAndObjectsLibrary265;
+using System.Data.SqlClient;
+using System.Data;
+using ClassesAndObjectsLibrary265;
+using ClassesAndObjectsLibrary265.ClassesAndObjects265;
 
 namespace ClassesAndObjects265
 {
@@ -13,12 +15,28 @@ namespace ClassesAndObjects265
     {
         static void Main(string[] args)
         {
-            
-           
-            
+
+
+
 
             Console.WriteLine("Welcome to the Completely Fictional Hotel and Casino, please enter your name: ");
             string playerName = Console.ReadLine();
+
+            if (playerName.ToLower() == "admin")
+            {
+                List<ExceptionEntity> Exceptions = ReadExceptions();
+                foreach (var exception in Exceptions)
+                {
+                    Console.Write(exception.Id + " | ");
+                    Console.Write(exception.ExceptionType + " | ");
+                    Console.Write(exception.ExceptionMessage + " | ");
+                    Console.Write(exception.TimeStamp + " | ");
+                    Console.WriteLine();
+
+                }
+                Console.ReadLine();
+                return;
+            }
 
             bool validAnswer = false;   //set so we can execute a while loop on it
             int bank = 0; //set default value
@@ -37,7 +55,7 @@ namespace ClassesAndObjects265
             {
                 Player player = new Player(playerName, bank); //create new player with name and bank props
                 player.Id = Guid.NewGuid();
-                using StreamWriter file = new StreamWriter(@"C:\\Users\\Machine\\Documents\\practice_file.txt", true))
+                using (StreamWriter file = new StreamWriter(@"C:\\Users\\Machine\\Documents\\practice_file.txt", true))
                 {
                     file.WriteLine(player.Id);
                 }
@@ -51,28 +69,90 @@ namespace ClassesAndObjects265
                     {
                         game.Play(); //Play defined in TwentyOneGame
                     }
-                    catch (FraudException)
+                    catch (FraudException ex) //giving Fraudexception name of "ex" so that it can be passed in below with Update line
                     {
-                        Console.WriteLine("Security Kick this person out.");
+                        Console.WriteLine(ex.Message);
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return;
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
                         Console.WriteLine("An error occured please contact sytem administrator");
                         Console.ReadLine();
+                        UpdateDbWithException(ex);
                         return;
                     }
-                    
+
                 }
                 game -= player; //if player isn't playing remove player from game
                 Console.WriteLine("Thanks for playing"); //triggers after player stops playing and is removed from game
+                Console.ReadLine();
             }
-            
-            Console.WriteLine("Feel free to look around the casino bye bye");
+
+        }
+
+            //******FOR SQL METHOD THAT ADDS PARAMETERS AND SHOWS BASIC COMMAND STRUCTURE***************************
+            private static void UpdateDbWithException(Exception ex)
+            {
+                string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=ClassesAndObjects265;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+
+                string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) VALUES
+                                        (@ExceptionType, @ExceptionMessage, @TimeStamp)";
+
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    SqlCommand command = new SqlCommand(queryString, connection);
+                    command.Parameters.Add("@ExceptionType", SqlDbType.VarChar);
+                    command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar);
+                    command.Parameters.Add("@TimeStamp", SqlDbType.DateTime);
+
+                    command.Parameters["@ExceptionType"].Value = ex.GetType().ToString();
+                    command.Parameters["@ExceptionMessage"].Value = ex.Message;
+                    command.Parameters["@TimeStamp"].Value = DateTime.Now;
+
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                    connection.Close();
+                }
+
+            }
+            private static List<ExceptionEntity> ReadExceptions()
+            {
+                string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=ClassesAndObjects265;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+
+                string queryString = @"Select Id, ExceptionType, ExceptionMessage, TimeStamp From Exceptions";
+
+                List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    SqlCommand command = new SqlCommand(queryString, connection);
+
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    while (reader.Read())  //loops through each record we return
+                    {
+                        ExceptionEntity exception = new ExceptionEntity(); //this instantiates one instance of the class ExceptionEntity which is a value for each of the properties
+                        exception.Id = Convert.ToInt32(reader["Id"]); //these lines are converting the string values of database table into proper data types that class accepts
+                        exception.ExceptionType = reader["ExceptionType"].ToString();
+                        exception.ExceptionMessage = reader["ExceptionMessage"].ToString();
+                        exception.TimeStamp = Convert.ToDateTime(reader["TimeStamp"]);
+                        Exceptions.Add(exception); //Exceptions is our new list on line 122 .Add adds () to that. exception is defined line 133
+
+                    }
+                    connection.Close();
+                    
+                }
+
+                return Exceptions;
+           
 
 
-            Console.ReadLine();
+
+            }
+
         }
     }
-}
+
