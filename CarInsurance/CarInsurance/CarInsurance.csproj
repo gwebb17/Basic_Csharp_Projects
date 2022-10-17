@@ -216,7 +216,6 @@
     <Content Include="Views\Insuree\Edit.cshtml" />
     <Content Include="Views\Insuree\Index.cshtml" />
     <Content Include="Views\Insuree\Admin.cshtml" />
-    <Content Include="Views\Insuree\Admin2.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

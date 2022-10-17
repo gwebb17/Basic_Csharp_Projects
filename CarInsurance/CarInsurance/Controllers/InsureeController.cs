@@ -20,6 +20,12 @@ namespace CarInsurance.Controllers
             return View(db.Tables.ToList());
         }
 
+        //GET: ADMIN page
+        public ActionResult Admin()
+        {
+            return View(db.Tables.ToList());
+        }
+
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
