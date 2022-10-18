@@ -12,7 +12,7 @@ namespace CarInsurance.Controllers
 {
     public class InsureeController : Controller
     {
-        private InsuranceEntities db = new InsuranceEntities();
+        private InsuranceEntitiesUpdated db = new InsuranceEntitiesUpdated();
 
         // GET: Insuree
         public ActionResult Index()
@@ -52,7 +52,7 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,DUI,SpeedingTickets,CoverageType,Quote")] Table table)
+        public ActionResult Create([Bind(Include = "FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Table table)
         {
             if (ModelState.IsValid)
             {
@@ -149,7 +149,7 @@ namespace CarInsurance.Controllers
             {
                 baseRate += 100;
             }
-            else if (age >= 19 || age <= 25)
+            else if (age >= 19 && age <= 25)
             {
                 baseRate += 50;
             }
@@ -173,7 +173,7 @@ namespace CarInsurance.Controllers
             {
                 baseRate += 25;
             }
-            else if (table.CarMake == "Porsche 911 Carrera")
+            else if (table.CarModel == "Porsche 911 Carrera")
             {
                 baseRate += 50; //50 because its porsche AND 911 carrera so 25 from each criteria
             }
@@ -182,11 +182,8 @@ namespace CarInsurance.Controllers
             //ticket checks
             if (table.SpeedingTickets > 0)
             {
-                int ticketAdjustment = table.SpeedingTickets * 10; //10$ for each ticket
-                double ticketAdjustmentPrice = Convert.ToDouble(ticketAdjustment); //convert result to price format
-                //baseRate += ticketAdjustmentPrice;
+                baseRate += table.SpeedingTickets * 10;
 
-                baseRate *= 10; //add ticket rate to baseRate
             }
 
             //DUI checks
