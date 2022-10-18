@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "TimePage";
+}
+
+<h2>Hopefully this shows current time.</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Click:</h2>
+        <form asp-page-handler="TimePage" method="post">
+            <button class="btn btn-default" onclick="TimeFunction()">Click to see server time.</button>
+        </form>
+        <p>
+            @{Console.WriteLine(DateTime.Now);
+                Console.ReadLine();
+            }
+        </p>
+    </div>
+</div>
